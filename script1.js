@@ -118,3 +118,5 @@ console.log("\n");
     console.log(x + 2 * x + a * x + b * x);
     console.log("\n"); 
 }
+
+console.log();
