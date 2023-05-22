@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.list{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+h1{
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(24, 53, 71);
+}
+
+.container{
+    background-color: rgb(241, 247, 250);
+    padding-bottom: 20px;
+}
+
+.container_form{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.container_form input{
+    width: 300px;
+    height: 40px;
+    border: 1px solid rgb(24, 53, 71);
+    border-radius: 4px;
+    text-indent: 15px;
+    font-size: 14px;
+}
+
+.container_buttons{
+    margin-right: 20px;
+}
+
+
+button{
+    width: 50px;
+    height: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 1px solid rgb(24, 53, 71);
+    border-radius: 4px;
+    background-color: rgb(24, 53, 71);
+    color: #fff;
+    cursor: pointer;
+}
+
+ul{
+    list-style: none;
+
+}
+
+li{
+    color: rgb(24, 53, 71);
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text{
+    margin-right: 90px;
+}
+
+ul input{
+    width: 30px;
+    height: 20px;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.clear{
+    width: 300px;
+    height: 40px;
+}
+
+.done{
+    text-decoration: line-through;
+}
+
+
+
+
+
