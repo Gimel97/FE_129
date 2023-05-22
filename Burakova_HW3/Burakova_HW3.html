@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Таблицы</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	
+	<div class="block">
+	<table class="table" border="1">
+		<thead>
+		<tbody>	
+			<caption>Оценки по информатике и математике учеников 7 класса</caption>
+			<tr>
+				<th rowspan="3">Ученик</th>
+				<th colspan="6">Период обучения</th>
+			</tr>	
+			<tr>
+				<th colspan="2">&#8544 четверть</th>
+				<th colspan="2">&#8545 четверть</th>
+				<th colspan="2">1-е полугодие</th>
+			</tr>
+			<tr>
+				<th>Информатика</th>
+				<th>Математика</th>
+				<th>Информатика</th>
+				<th>Математика</th>
+				<th>Информатика</th>
+				<th>Математика</th>
+			</tr>
+		</thead>
+			<tr>
+				<td>Иванов Дима</td>
+				<td>4</td>
+				<td>4</td>
+				<td>5</td>
+				<td>5</td>
+				<td>5</td>
+				<td>3</td>
+			</tr>
+			<tr>
+				<td>Петров Михаил</td>
+				<td>4</td>
+				<td>3</td>
+				<td>5</td>
+				<td>4</td>
+				<td>3</td>
+				<td>5</td>
+			</tr>
+			<tr>
+				<td>Голубев Петр</td>
+				<td>5</td>
+				<td>5</td>
+				<td>5</td>
+				<td>4</td>
+				<td>4</td>
+				<td>5</td>
+			</tr>
+			<tr>
+				<td>Гордеев Иван</td>
+				<td>4</td>
+				<td>5</td>
+				<td>3</td>
+				<td>5</td>
+				<td>4</td>
+				<td>5</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td class="total" colspan="5">Итого (средняя оценка)</td>
+				<td>4</td>
+				<td>4,5</td>
+			</tr>
+		</tfoot>
+	</table>
+	<hr/>
+
+
+	<form method="POST">
+		<fieldset>
+			<legend>Общая информация</legend>	
+
+			<div class="field">
+			ФИО<br/>
+			<input minlength="2" maxlength="50" placeholder="Иванов Иван Иванович" required type="text" name="firstname">
+			</div>
+
+			<div class="field">
+			Дата рождения<br/>
+			<input required type="date" name="birthday">
+			</div>
+
+			<div class="field">
+			Пол<br/>
+			<input type="radio" name="gender">Мужской<br/>
+			<input type="radio" name="gender">Женский<br/>
+			<input type="radio" name="gender">Другой<br/>
+			</div>
+
+			<div class="field">
+			Фото<br/>
+			<input type="file" name="photo">
+			</div>
+		</fieldset>
+		<fieldset>
+			<legend>Контактная информация</legend>	
+
+			<div class="field">
+			Телефон<br/>
+			<input placeholder="+375292002020" required type="tel" name="telephone">
+			</div>
+
+			<div class="field">
+			Электронная почта<br/>
+			<input placeholder="name@gmail.com" type="email" name="email">
+			</div>
+
+			<div class="field">
+			Образование<br/>
+			<select multiple name="education">
+				<option selected>Высшее</option>
+				<option>Курсы</option>
+			</select>
+			</div>
+
+			<div class="field">
+			Карьера<br/>
+			Место работы 1<br/>
+			<input placeholder="Укажите первое место работы" type="text" name=work1>
+			<input type="date" name="work1">
+			<br/>
+			Место работы 2<br/>
+			<input placeholder="Укажите второе место работы" type="text" name=work2>
+			<input type="date" name="work2">
+			</div>
+
+			<div class="field">
+			О себе<br/>
+			<textarea name="message">Я, __________ проживаю _____________ прошу _________
+			</textarea>
+			</div>
+
+			<button class="send">Отправить</button>
+			<button type="reset">Очистить</button>
+
+
+		</fieldset>
+	</form>
+	</div>
+</body>
+</html>

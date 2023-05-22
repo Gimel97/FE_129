@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home</title>
+	<style>
+		.block{
+			width: 80%;
+			height: 800px;
+			background-color: #000;
+			transition: all 0.5s;
+		}
+
+		@media (max-width: 1280px) {
+			.block {
+				width: 800px;
+			}
+		}
+
+		@media (max-width: 1150px) {
+			.block {
+				background-color: red;
+			}
+		}
+
+		@media (max-width: 1024px) {
+			.block {
+				width: 600px;
+				height: 600px;
+				background-color: green;
+				border-radius: 50%;
+			}
+		}
+
+		@media (max-width: 1024px) and (orientation: landscape) {
+			.block {
+			height: 400px;
+			}
+		} 
+
+		@media (max-width: 320px) {
+			.block {
+				width: 320px;
+				height: 320px;
+				background-color: blue;
+			}
+		}
+
+		@media print {
+			.block {
+				display: none;
+			}
+		}
+	</style>
+</head>
+<body>
+	
+	<div class="block"></div>
+
+</body>
+</html>

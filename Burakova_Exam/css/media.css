@@ -1,0 +1,1350 @@
+@media (max-width: 1240px) {
+	.site {
+		max-width: 1200px;
+		width: 100%;
+	}
+
+	.nav{
+		width: 100%;
+	}
+
+	.basket{
+		margin-left: 200px;
+	}
+
+	.slide_text_right{
+		right: 270px;
+	}
+}
+
+@media (max-width: 1152px) {
+	.site {
+		max-width: 1152px;
+		width: 100%;
+	}
+
+	.basket{
+		margin-left: 100px;
+	}
+
+	.title .title_text h1{
+		font-size: 60px;
+	}
+
+	.slide_text_left{
+		top: 80px;
+	}
+
+	.slide_text_right{
+		top: 80px;
+		right: 260px;
+	}
+
+	.slide .fruits h1{
+		font-size: 34px;
+	}
+
+	.slide .vegetables h1{
+		font-size: 34px;
+	}
+
+	.about .th-main{
+		width: 580px;
+		height: 527px;
+	}
+
+	.catalogue .product_img{
+		width: 98%;
+	}
+
+	.review_text{
+		font-size: 16px;
+	}
+
+	.review_line{
+		width: 98%;
+		left: 15px;
+	}
+
+	.statistics img{
+		width: 90%;
+	}
+
+	.offer_container .product_img{
+		width: 98%;
+	}
+
+	.farm{
+		left: 580px;
+	}
+
+	.farm_text{
+		margin-left: 40px;
+		margin-right: 10px;
+	}
+
+	.farm_text_blocks{
+		width: 98%;
+	}
+
+	.menu_img{
+		width: 100%;
+	}
+
+	.juice, .org-food, .cookies{
+		width: 350px;
+
+	}
+
+	.about_organization .logo_footer{
+		width: 600px;
+	}
+}
+
+@media (max-width: 1024px) {
+	.site {
+		max-width: 1024px;
+		width: 100%;
+	}
+
+	.logo{
+		margin-right: 20px;
+	}
+
+	.basket{
+		margin-left: 70px;
+	}
+
+	.title .title_text h1{
+		font-size: 54px;
+	}
+
+	.title_text{
+		top: 200px;
+	}
+
+	.slide_text_left{
+		top: 60px;
+		left: 20px;
+	}
+
+	.slide_text_right{
+		top: 60px;
+		right: 250px;
+	}
+
+	.slide .fruits h1{
+		font-size: 30px;
+	}
+
+	.slide .vegetables h1{
+		font-size: 30px;
+	}
+
+	.about .th-main{
+		width: 500px;
+		height: 487px;
+	}
+
+	.about_us h1{
+		font-size: 42px;
+	}
+
+	.about_us h3{
+		margin-bottom: 40px;
+	}
+
+	.catalogue{
+		grid-template-rows: 500px 500px;
+	}
+
+	.catalogue .prices .without_discount{
+		font-size: 14px;
+	}
+
+	.catalogue .prices .with_discount{
+		font-size: 14px;
+	}
+	
+	.review_text{
+		font-size: 15px;
+	}
+
+	.review_line{
+		left: 0;
+		top: 350px;
+	}
+
+	.statistics{
+		width: 80%;
+		top: 690px;
+		left: 140px;
+	}
+
+	.offer_container .prices .without_discount{
+		font-size: 14px;
+	}
+
+	.offer_container .prices .with_discount{
+		font-size: 14px;
+	}
+
+	.offers_products{
+		grid-template-rows: 500px 500px;
+	}
+
+	.farm{
+		left: 500px;
+	}
+
+	.farm_text{
+		margin-left: 20px;
+		margin-right: 50px;
+	}
+
+	.farm_text_blocks{
+		width: 95%;
+	}
+
+	.farm_text_blocks h3{
+		font-size: 20px;
+	}
+
+	.farm_text_blocks h4{
+		font-size: 14px;
+	}
+
+	.juice, .org-food, .cookies{
+		width: 320px;
+	}
+
+	.form_img{
+		width: 95%;
+	}
+
+	.form_email{
+		top: 90px;
+	}
+
+	.form_text h1{
+		font-size: 40px;
+	}
+
+	.about_organization{
+		margin-left: 10px;
+	}
+
+	.about_organization .contacts{
+		width: 250px;
+	}
+
+	.about_organization .contacts h1{
+		font-size: 26px;
+	}
+
+	.about_organization .contacts h5{
+		font-size: 15px;
+	}
+
+	.about_organization .logo_footer{
+		width: 550px;
+	}
+
+	.about_organization .about_company{
+		width: 507px;
+		font-size: 14px;
+	}
+
+	.about_organization .pages h1{
+		font-size: 26px;
+	}
+
+	.about_organization .pages a{
+		font-size: 16px;
+	}
+		
+}
+
+@media (max-width: 800px) {
+	.site {
+		max-width: 800px;
+		width: 100%;
+	}
+
+	.logo{
+		margin-right: 0px;
+	}
+
+	.nav_toggle {
+		display: inline-block;
+		margin-left: 80px;
+	}
+
+	.nav ul {
+		display: none;
+	}
+
+	#nav_toggle:checked ~ ul {
+		display: block;
+		flex-direction: column;
+	}
+
+	.nav ul {
+		position: absolute;
+		top: 0;
+		right: 0;
+		background-color: #F9F8F8;
+		opacity: .9;
+		min-width: 205px;
+		height: 290px;
+	}
+
+	.nav li:not(:last-child) {
+		margin-left: 20px;
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+
+	.button .nav {
+		margin-left: 90px;
+	}
+
+	.title_text{
+		top: 180px;
+	}
+
+	.title .title_text h1{
+		font-size: 46px;
+		line-height: 54px;
+	}
+
+	.slide{
+		margin-bottom: 0px;
+	}
+
+	.slide_text_left{
+		top: 40px;
+	}
+
+	.slide_text_right{
+		top: 35px;
+		right: 210px;
+	}
+
+	.slide .fruits h2{
+		font-size: 28px;
+	}
+
+	.slide .fruits h1{
+		font-size: 20px;
+		line-height: 30px;
+	}
+
+	.slide .vegetables h2{
+		font-size: 28px;
+	}
+
+	.slide .vegetables h1{
+		font-size: 20px;
+		line-height: 30px;
+	}
+
+	.about{
+		padding-left: 80px;
+	}
+
+	.about .th-main{
+		display: none;
+	}
+
+	.about_us h3{
+		margin-bottom: 0px;
+	}
+
+	.catalogue{
+		grid-template-rows: 410px 410px;
+	}
+
+	.catalogue .prices .without_discount{
+		font-size: 12px;
+	}
+
+	.catalogue .prices .with_discount{
+		font-size: 12px;
+	}
+
+	.catalogue button{
+		width: 105px;
+	}
+
+	.catalogue .variety{
+		font-size: 12px;
+	}
+
+	.description .name{
+		font-size: 16px!important;
+	}
+
+	.rating{
+		display: none;
+	}
+
+	.review_title{
+		width: 90%;
+		top: 30px;
+		left: 50px;
+	}
+
+	.review_Sara{
+		top: 190px;
+		left: 110px;
+	}
+
+	.review_Sara .review_rating{
+		margin-top: 10px;
+		margin-bottom: 5px;
+	}
+	
+	.review_text{
+		font-size: 11px;
+	}
+
+	.review_line{
+		left: 0;
+		top: 350px;
+	}
+
+	.statistics{
+		width: 80%;
+		top: 560px;
+		left: 100px;
+	}
+
+	.offers{
+		height: 900px;
+	}
+
+	.offer_title h1{
+		font-size: 34px;
+	}
+
+	.offers_products{
+		grid-template-rows: 410px 410px;
+	}
+
+
+	.farm{
+		left: 200px;
+	}
+
+	.juice, .org-food, .cookies{
+		width: 250px;
+	}
+
+	.form_img{
+		width: 93%;
+	}
+
+	.form_email{
+		width: 85%;
+		top: 60px;
+	}
+
+	.form_text h1{
+		font-size: 24px;
+		line-height: 40px;
+	}
+
+	.form_send{
+		width: 420px;
+		height: 102px;
+	}
+
+	.form_send input{
+		width: 250px;
+		height: 72px;
+		font-size: 12px;
+	}
+
+	.form_send button{
+		width: 157px;
+		height: 72px;
+	}
+
+	.form_send button p{
+		font-size: 12px;
+		top: 20px;
+	}
+
+	.form_send button span{
+		left: 110px;
+		top: 16px;
+	}
+
+
+	.about_organization{
+		width: 90%;
+		margin-left: 10px;
+	}
+
+	.about_organization .contacts{
+		width: 220px;
+	}
+
+	.about_organization .contacts h1{
+		font-size: 24px;
+	}
+
+	.about_organization .contacts h5{
+		font-size: 10px!important;
+
+	}
+
+	.about_organization .contacts h5{
+		font-size: 15px;
+	}
+
+	.about_organization .logo_footer{
+		width: 400px;
+	}
+
+	.about_organization .about_company{
+		width: 340px;
+		font-size: 14px;
+	}
+
+	.about_organization .social{
+		width: 250px;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.about_organization .social img{
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+
+	.vert_right-line{
+		margin-right: 10px;
+	}
+
+	.vert_left-line{
+		margin-left: 10px;
+	}
+
+	.about_organization .pages h1{
+		font-size: 24px;
+	}
+
+	.about_organization .pages a{
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 768px){
+	.title .title_text h1{
+		font-size: 42px;
+		line-height: 50px;
+	}
+
+	.slide_text_right{
+		right: 190px;
+	}
+
+	.review_text{
+		font-size: 10px;
+	}
+
+	.review_line{
+		top: 325px;
+	}
+
+	.statistics{
+		top: 530px;
+	}
+}
+
+@media (max-width: 640px) {
+	.title_text{
+		position: absolute;
+		top: 150px;
+		left: 20px;
+	}
+
+	.title .title_text h2{
+		font-size: 30px;
+	}
+
+	.title .title_text h1{
+		font-size: 36px;
+		line-height: 42px;
+	}
+
+	.fruits{
+		margin-right: 20px;
+	}
+
+	.slide_text_right{
+		right: 150px;
+		top: 10px;
+	}
+
+	.slide_text_left{
+		right: 20px;
+		top: 15px;
+	}
+
+	.about{
+		padding-left: 60px;
+	}
+
+	.about_us h3{
+		margin-bottom: 40px;
+	}
+
+	.catalogue{
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: 450px 450px 450px;
+	}
+
+	.review_title{
+		width: 90%;
+		top: 10px;
+		left: 40px;
+	}
+
+	.review_title h2{
+		font-size: 28px;
+	}
+
+	.review_title h1{
+		font-size: 30px;
+	}
+
+	.review_Sara{
+		top: 155px;
+		left: 90px;
+	}
+
+	.review_text{
+		font-size: 8px;
+		line-height: 20px;
+		margin-bottom: 10px;
+	}
+
+	.review_Sara .name{
+		font-size: 20px;
+		line-height: 24px;
+	}
+
+	.review_Sara .consumer{
+		font-size: 10px;
+	}
+
+	.review_line{
+		top: 275px;
+	}
+
+	.statistics{
+		top: 450px;
+		left: 90px;
+	}
+
+	.offers{
+		height: 1260px;
+	}
+
+	.offer_container{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.offer_title h2{
+		font-size: 24px;
+	}
+
+	.offer_title h1{
+		font-size: 26px;
+	}
+
+	.offer_main{
+		padding-top: 60px;
+	}
+
+	.offer_main button{
+		width: 220px;
+		height: 72px;
+	}
+
+	.offer_main button p{
+		font-size: 16px;
+		top: 20px;
+		left: 28px;
+	}
+
+	.offer_main button span{
+		left: 170px;
+		top: 16px;
+	}
+
+	.offers_products{
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: 460px 460px;
+	}
+
+	.farm{
+		left: 100px;
+	}
+
+	.juice, .org-food, .cookies{
+		width: 200px;
+	}
+
+	.form_img{
+		width: 91%;
+	}
+
+	.form_email{
+		width: 92%;
+		top: 40px;
+	}
+
+	.form_text h1{
+		font-size: 18px;
+		line-height: 28px;
+	}
+
+	.form_send{
+		width: 420px;
+		height: 102px;
+	}
+
+	.form_send input{
+		width: 200px;
+		height: 72px;
+		font-size: 10px;
+	}
+
+	.form_send button{
+		width: 137px;
+		height: 72px;
+	}
+
+	.form_send button p{
+		font-size: 10px;
+		top: 20px;
+		left: 25px;
+	}
+
+	.form_send button span{
+		left: 90px;
+		top: 16px;
+	}
+
+	.contact_email, .contact_phone, .contact_address{
+		margin-bottom: 30px;
+	}
+
+	.about_organization .pages li{
+		margin-bottom: 18px;
+	}
+
+	.logo_footer .about_company {
+		width: 280px;
+	}
+
+	.social img{
+		width: 60px;
+	}
+
+}
+
+@media (max-width: 425px) {
+
+	.nav{
+		width: 90%;
+		height: 60px;
+		justify-content: space-between;
+	}
+
+	.nav_toggle {
+		margin-left: 0px;
+	}
+
+	.logo{
+		width: 150px;
+		height: 40px;
+	}
+
+	.basket{
+		width: 145px;
+		height: 60px;
+		margin-left: 0;
+	}
+
+	.nav ul{
+		min-width: 165px;
+		height: 280px;
+	}
+
+	.button .nav {
+		margin-left: 40px;
+	}
+
+	.nav li{
+		margin-left: 0;
+		margin-bottom: 5px;
+		margin-top: 5px;
+	}
+
+	.nav li:not(:last-child){
+		margin-left: 0;
+	}
+
+	.title{
+		height: 450px;
+		background-color: #F9F8F8;
+	}
+
+	.title .main{
+		display: none;
+	}
+
+	.slide{
+		height: 420px;
+		margin-top: 40px;
+		margin-left: 60px;
+		display: inline-block;
+	}
+
+	.slide img{
+		width: 300px;
+	}
+
+	.vegetables{
+		margin-top: 30px;
+	}
+
+	.slide_text_right{
+		right: 260px;
+	}
+
+	.about{
+		height: 800px;
+		padding-left: 30px;
+	}
+
+	.about_us{
+		margin-top: 40px;
+	}
+
+	.about_us h1{
+		font-size: 30px;
+		line-height: 48px;
+	}
+
+	.about_us h3{
+		font-size: 14px;
+		line-height: 22px;
+		margin-bottom: 0;
+	}
+
+	.about_us_blocks h4{
+		font-size: 16px;
+	}
+
+	.about_us_blocks h5{
+		font-size: 12px;
+		line-height: 20px;
+	}
+
+	.org_foods, .standards{
+		margin-bottom: 20px;
+	}
+
+	.products{
+		margin-top: 40px;
+	}
+
+	.products_title h1{
+		font-size: 40px;
+	}
+
+	.catalogue{
+		display: inline-block;
+		width: 75%;
+		margin-left: 50px;
+		margin-bottom: 60px;
+	}
+
+	.catalogue .product{
+		margin-bottom: 20px;
+	}
+
+	.catalogue .product:nth-child(6){
+		margin-bottom: 0;
+	}
+
+	.review_title{
+		width: 100%;
+		left: 0;
+		right: 0;
+	}
+
+	.review_title h2{
+		margin-top: -15px;
+	}
+
+	.review_title h1{
+		font-size: 22px;
+		line-height: 5px;
+		margin-top: -5px;
+	}
+
+	.review_Sara{
+		width: 100%;
+		left: 0;
+		right: 0;
+		top: 80px;
+	}
+
+	.review_Sara .girl{
+		width: 15%;
+		margin-bottom: -10px;
+	}
+
+	.review_rating .stars{
+		width: 15%;
+	}
+
+	.review_text{
+		width: 75%;
+		line-height: 12px;
+		margin-bottom: 8px;
+	}
+
+	.name{
+		font-size: 18px;
+		margin-top: -5px;
+	}
+
+	.consumer{
+		font-size: 10px;
+		margin-top: -5px;
+	}
+
+	.review_line{
+		width: 80%;
+		top: 180px;
+		left: 42px;
+	}
+
+	.statistics{
+		width: 80%;
+		left: 50px;
+		right: 0;
+		top: 280px
+	}
+
+	.statistics .circle{
+		margin-right: 10px;
+	}
+
+	.offers{
+		height: 100%;
+	}
+
+	.offer_container{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.offer_title h1{
+		width: 150px;
+		font-size: 20px;
+		line-height: 30px;
+	}
+
+	.offer_main{
+		margin-top: -30px;
+	}
+
+	.offer_main button{
+		width: 150px;
+	}
+
+	.offer_main button p{
+		font-size: 10px;
+		left: 12px;
+	}
+
+	.offer_main button span{
+		left: 106px;
+	}
+
+	.offers_products{
+		display: inline-block;
+		width: 75%;
+		margin-left: 50px;
+		margin-bottom: 60px;
+	}
+
+	.offers_products .product{
+		margin-bottom: 20px;
+	}
+
+	.farm{
+		left: 0px;
+		opacity: .9;
+	}
+
+	.farm_text h1{
+		font-size: 38px;
+		line-height: 48px;
+	}
+
+	.farm_text_blocks h4{
+		line-height: 22px;
+	}
+
+	.menu_img{
+		display: inline-block;
+		margin-left: 80px;
+		padding-top: 60px;
+		padding-bottom: 40px;
+	}
+
+	.juice, .org-food, .cookies{
+		max-width: 280px;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	.form_img{
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.form_email{
+		width: 400px;
+		height: 80px;
+		left: 10px;
+	}
+
+	.form_text h1{
+		font-size: 12px;
+		line-height: 20px;
+	}
+
+	.form_send{
+		width: 280px;
+	}
+
+	.form_send input{
+		width: 150px;
+		height: 52px;
+		text-indent: 10px;
+	}
+
+	.form_send button{
+		width: 107px;
+		height: 52px;
+	}
+
+	.form_send button p{
+		left: 13px;
+		top: 10px;
+	}
+
+	.form_send button span{
+		width: 30px;
+		height: 30px;
+		left: 68px;
+		top: 10px;
+	}
+
+	.form_send button img{
+		width: 12px;
+		height: 9px;
+		top: 11px;
+		left: 9px;
+	}
+
+	.about_organization{
+		display: inline-block;
+		margin-top: 60px;
+		margin-bottom: 40px;
+	}
+
+	.about_organization .contacts{
+		display: inline-block;
+		width: 100%;
+	}
+
+	.about_organization .contacts h1{
+		text-align: center;
+	}
+
+	.about_organization .contacts h4{
+		text-align: center;
+	}
+
+	.about_organization .contacts h5{
+		text-align: center;
+	}
+
+	.pages{
+		margin-top: 60px;
+		text-align: center;
+		margin-bottom: 0;
+	}
+
+	@media (max-width: 375px) {
+
+	.nav_toggle {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+	.nav ul{
+		min-width: 115px;
+		height: 220px;
+	}
+
+	.nav a{
+		font-size: 14px;
+	}
+
+	.nav li{
+		margin-left: -20px;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		
+	}
+
+	.nav li:not(:last-child){
+		margin-left: -20px;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	} 
+
+	.slide{
+		margin-left: 40px;
+	}
+
+	.slide_text_right{
+		right: 210px;
+	}
+
+	.about_us h1{
+		font-size: 26px;
+	}
+
+	.about_us_blocks img{
+		margin-top: 15px;
+	}
+
+	.about button{
+		margin-top: 30px;
+	}
+
+	.menu_img{
+		margin-left: 50px;
+	}
+
+	.review_line{
+		top: 175px;
+	}
+
+	.statistics{
+		top: 265px;
+	}
+
+	.form_email{
+		width: 350px;
+		height: 70px;
+		left: 5px;
+	}
+
+	.form_text h1{
+		line-height: 18px;
+		margin-left: 10px;
+	}
+
+	.form_send{
+		width: 230px;
+	}
+
+	.form_send input{
+		width: 150px;
+		text-indent: 5px;
+		font-size: 8px;
+	}
+
+	.form_send button{
+		margin-left: 5px;
+	}
+
+	.form_send button p{
+		left: 7px;
+		font-size: 8px;
+	}
+
+	.form_send button span{
+		left: 54px;
+	}
+
+	.about_organization .logo_footer{
+		width: 350px;
+	}
+
+	@media (max-width: 320px) {
+
+	.nav {
+		height: 50px;
+	}
+
+	.nav .logo{
+		width: 120px;
+		height: 35px;
+	}
+
+	.basket{
+		width: 125px;
+    	height: 50px;
+	}
+
+	.slide{
+		margin-left: 20px;
+	}
+
+	.slide img{
+		width: 280px;
+	}
+
+	.slide_text_right{
+		right: 165px;
+	}
+
+	.about{
+		padding-left: 15px;
+	}
+
+	.about_us{
+		margin-top: 20px
+	}
+
+	.about_us h1{
+		font-size: 24px;
+		line-height: 40px;
+	}
+
+	.about_us h3{
+		margin-bottom: 25px;
+	}
+ 
+	.standards .about_us_text h4{
+		margin-top: 35px;
+	}
+
+	.about_us_blocks img{
+		margin-top: 25px;
+	}
+
+	.standards img{
+		margin-top: 60px;
+	}
+
+	.products_container{
+		margin-left: 0;
+	}
+
+	.review_title h2{
+		font-size: 22px;
+		line-height: 55px;
+		margin-top: -20px;
+	}
+
+	.review_title h1{
+		font-size: 20px;
+	}
+
+	.review_Sara{
+		top: 60px;
+	}
+
+	.review_Sara .review_rating{
+		margin-bottom: 0;
+	}
+
+	.review_Sara .name{
+		font-size: 18px;
+		 line-height: 18px
+	}
+
+	.review_Sara .consumer{
+		font-size: 9px;
+	}
+
+	.review_line{
+		top: 148px;
+		left: 35px;
+	}
+
+	.statistics{
+		top: 220px;
+		left: 45px;
+	}
+
+	.offer_container{
+		margin-left: 0;
+	}
+
+
+	.offer_main button p{
+		width: 80px;
+		font-size: 10px;
+		line-height: 16px;
+		left: 4px;
+	}
+
+	.offer_main button span{
+		left: 80px;
+	}
+
+	.farm_text h1{
+		font-size: 34px;
+	}
+
+	.menu_img{
+		margin-left: 20px;
+	}
+
+	.form_email{
+		height: 60px;
+	}
+
+	.form_text h1{
+		margin-left: 2px;
+	}
+
+	.form_send{
+		width: 250px;
+	}
+
+	.form_send input{
+		width: 110px;
+	}
+
+	.form_send button{
+		width: 90px;
+	}
+
+	.form_send button span{
+		left: 54px;
+	}
+
+	.about_organization .logo_footer{
+		width: 300px;
+	}

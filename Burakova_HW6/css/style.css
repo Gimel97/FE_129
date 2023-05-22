@@ -1,0 +1,352 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+.container{
+	max-width: 1280px;
+	width: 100%;
+	margin-top: 40px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.avatar1{
+	max-width: 300px;
+	height: 300px;
+	width: 100%;
+	overflow: hidden;
+	margin: 10px;
+	background: #F0F0F0;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.body1{
+	width: 250px;
+	height: 250px;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: 70px;
+	left: 0;
+}
+
+.head1{
+	width: 280px;
+	height: 300px;
+	position: absolute;
+	top: 20px;
+	left: 10px;
+}
+
+.eyes1{
+	width: 80px;
+	height: 32px;
+	position: absolute;
+	top: 135px;
+	left: 110px;
+}
+
+.nose1{
+	width: 30px;
+	height: 45px;
+	position: absolute;
+	left: 135px;
+	top: 135px;
+}
+
+.mouth1{
+	width: 60px;
+	height: 50px;
+	position: absolute;
+	left: 120px;
+	top: 175px;
+}
+
+.clothing1{
+	width: 252px;
+	height: 108px;
+	position: absolute;
+	left: 24px;
+	top: 210px;
+}
+
+.line{
+	width: 40px;
+	background: #F0F0F0;
+	margin: -5px 10px;
+}
+
+.avatar2{
+	max-width: 300px;
+	height: 300px;
+	width: 100%;
+	overflow: hidden;
+	margin: 10px;
+	background: #ff69b4;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.body2{
+	width: 250px;
+	height: 250px;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: 70px;
+	left: 0;
+}
+
+.head2{
+	width: 280px;
+	height: 300px;
+	position: absolute;
+	top: 18px;
+	left: 10px;
+}
+
+.eyes2{
+	width: 80px;
+	height: 32px;
+	position: absolute;
+	top: 135px;
+	left: 110px;
+}
+
+.nose2{
+	width: 30px;
+	height: 45px;
+	position: absolute;
+	left: 135px;
+	top: 135px;
+}
+
+.mouth2{
+	width: 60px;
+	height: 50px;
+	position: absolute;
+	left: 120px;
+	top: 175px;
+}
+
+.clothing2{
+	width: 252px;
+	height: 108px;
+	position: absolute;
+	left: 24px;
+	top: 211px;
+}
+
+.avatar3{
+	max-width: 300px;
+	height: 300px;
+	width: 100%;
+	overflow: hidden;
+	margin: 10px;
+	background: #FFCF40;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.body3{
+	width: 250px;
+	height: 250px;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: 70px;
+	left: 0;
+}
+
+.head3{
+	width: 280px;
+	height: 300px;
+	position: absolute;
+	top: 18px;
+	left: 10px;
+}
+
+.eyes3{
+	width: 80px;
+	height: 32px;
+	position: absolute;
+	top: 135px;
+	left: 110px;
+}
+
+.nose3{
+	width: 30px;
+	height: 45px;
+	position: absolute;
+	left: 135px;
+	top: 135px;
+}
+
+.mouth3{
+	width: 60px;
+	height: 50px;
+	position: absolute;
+	left: 120px;
+	top: 175px;
+}
+
+.clothing3{
+	width: 252px;
+	height: 108px;
+	position: absolute;
+	left: 24px;
+	top: 211px;
+}
+
+.avatar4{
+	max-width: 300px;
+	height: 300px;
+	width: 100%;
+	overflow: hidden;
+	margin: 10px;
+	background: #FF9BAA;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.body4{
+	width: 250px;
+	height: 250px;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: 70px;
+	left: 0;
+}
+
+.head4{
+	width: 280px;
+	height: 300px;
+	position: absolute;
+	top: 18px;
+	left: 10px;
+}
+
+.eyes4{
+	width: 80px;
+	height: 32px;
+	position: absolute;
+	top: 135px;
+	left: 110px;
+}
+
+.nose4{
+	width: 30px;
+	height: 45px;
+	position: absolute;
+	left: 135px;
+	top: 135px;
+}
+
+.mouth4{
+	width: 60px;
+	height: 50px;
+	position: absolute;
+	left: 120px;
+	top: 175px;
+}
+
+.beard4{
+	width: 138px;
+	height: 125px;
+	position: absolute;
+	left: 81px;
+	top: 158px;
+	z-index: 1;
+}
+
+.clothing4{
+	width: 252px;
+	height: 108px;
+	position: absolute;
+	left: 24px;
+	top: 211px;
+}
+
+.avatar5{
+	max-width: 300px;
+	height: 300px;
+	width: 100%;
+	overflow: hidden;
+	margin: 10px;
+	background: #8E91B3;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.body5{
+	width: 250px;
+	height: 250px;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: 70px;
+	left: 0;
+}
+
+.head5{
+	width: 280px;
+	height: 300px;
+	position: absolute;
+	top: 18px;
+	left: 10px;
+}
+
+.eyes5{
+	width: 80px;
+	height: 32px;
+	position: absolute;
+	top: 135px;
+	left: 110px;
+}
+
+.glasses5{
+	width: 130px;
+	height: 60px;
+	position: absolute;
+	top: 122px;
+	left: 85px;
+}
+
+.nose5{
+	width: 30px;
+	height: 47px;
+	position: absolute;
+	left: 137px;
+	top: 135px;
+}
+
+.mouth5{
+	width: 60px;
+	height: 50px;
+	position: absolute;
+	left: 120px;
+	top: 175px;
+}
+
+.clothing5{
+	width: 252px;
+	height: 108px;
+	position: absolute;
+	left: 24px;
+	top: 211px;
+}

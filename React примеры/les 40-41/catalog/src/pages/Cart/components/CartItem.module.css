@@ -1,0 +1,25 @@
+.item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image{
+    max-width: 100px;
+    width: 100%;
+}
+
+.image img{
+    width: 100%;
+    display: block;
+}
+
+.title{
+    align-self: center;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.price{
+    font-size: 18px;
+    font-weight: 700;
+}

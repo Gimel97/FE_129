@@ -1,0 +1,71 @@
+.block{
+	background-image: url(img.jpg);
+	background-size: cover;
+}
+
+table{
+	border: 1px solid #000;
+	border-collapse: collapse;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table th{
+	background-color: #ACB78E;
+}
+
+table td{	
+	text-align: center;
+
+}
+
+tbody tr:hover:nth-child(even){
+	background-color:#8f9e66;
+}
+
+
+tfoot{
+	background-color:#7b8a51;
+	font-weight: bold;
+
+}
+
+caption{
+	font-size: 24px;
+	font-weight: bold;
+
+}
+
+form{
+	font-size: 20px;
+	font-weight: bold;
+	padding: 20px;
+}
+
+fieldset{
+	background-color: #7b8a51; 
+}
+
+
+legend{
+	font-size: 26px;
+	font-weight: bold;
+	padding: 20px;
+}
+
+button{
+	font-size: 24px;
+	border: 2px solid black;
+	border-radius: 10px;
+	background-color: #FFDEAD;
+	padding: 10px;
+}
+
+
+.total{
+	text-align: right;
+}
+
+
+

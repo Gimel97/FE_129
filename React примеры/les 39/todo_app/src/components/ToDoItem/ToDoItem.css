@@ -1,0 +1,19 @@
+.item {
+    display: flex;
+    justify-content: space-between;
+    max-width: 500px;
+    width: 100%;
+}
+
+.item__text{
+    font-size: 18px;
+}
+
+.item__button{
+    background: rgb(255, 105, 105);
+    font-size: 20px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
